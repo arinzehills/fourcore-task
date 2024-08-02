@@ -2,7 +2,24 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useSelector } from 'react-redux';
 import { Icon } from '@iconify/react/dist/iconify.js';
+import { ScrollLink } from 'react-scroll';
 
+
+
+export const ScrollTo = ({ to, children }) => {
+    return (
+      <ScrollLink
+        to={to ?? "products"}
+        className="p-0 m-0 h-auto"
+        smooth={true}
+        spy={true}
+        offset={160}
+        duration={1500}
+      >
+        {children ?? "Products"}
+      </ScrollLink>
+    );
+  };
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const {items:cart} = useSelector((state) => state.cart);

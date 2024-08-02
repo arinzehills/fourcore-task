@@ -26,7 +26,7 @@ const ProductList = () => {
   }
   // console.log(data[0])
   return (
-    <div >
+    <div id="products">
        <h3 className="text-xl font-bold my-6">Sponsored Products</h3>
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
         {data?.slice(0,4).map((product) => (
