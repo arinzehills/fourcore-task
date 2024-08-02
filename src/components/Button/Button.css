@@ -1,0 +1,26 @@
+.btn-orange {
+  background: var(--orange-gradient);
+  color: white;
+}
+.btn-blue {
+  background: var(--blue-gradient);
+  color: white;
+}
+.btn-orange:hover {
+  border: 1px solid var(--darkOrange);
+  transition: all 0.3s ease-out;
+  background: white;
+  color: var(--lightOrange);
+}
+.btn-blue:hover {
+  border: 1px solid var(--darkBlue);
+  transition: all 0.3s ease-out;
+  background: white;
+  color: var(--lightBlue);
+}
+.btn-blue-outline {
+  border: 1px solid var(--darkBlue);
+  transition: all 0.3s ease-out;
+  background: white;
+  color: var(--lightBlue);
+}

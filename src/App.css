@@ -1,0 +1,27 @@
+/* body{
+    padding: 30px;
+} */
+
+.flex-center{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.red-text{
+    color: rgb(255, 39, 39);
+}
+
+
+.online {
+    color: #00ffaa;
+    background: #00ffaa28;
+  }
+  .offline {
+    color: var(--danger);
+    background: #ff77821a;
+  }
+  .pending {
+    color: var(--yellow);
+    background: #fedc5453;
+  }
