@@ -36,7 +36,7 @@ This is a React application for a 4core fictional e-commerce platform. The appli
    npm install
    npm run dev
 
-## My Design Choice  Design Decisions
+## My Design Choice  and Why
 1. Component Architecture:
 
 I used Functional Components and Hooks: to ensure a modern, clean, and maintainable codebase. 
@@ -47,5 +47,6 @@ Reusable Components: This ensures modularity and this approach improves code reu
 
 Redux Toolkit: Chosen for global state management to handle authentication and shopping cart state.
 
-Persisting Authentication State: To maintain user authentication across page reloads, the user's state is persisted in localStorage. Upon application load, we check localStorage and update the Redux state accordingly, ensuring a seamless user experience.
-Persisting Cart Items State: To maintain cart items across page reloads, the user's cart items is persisted in localStorage. Upon application load, we check localStorage and update the Redux state accordingly, ensuring a seamless user experience.
+ - Persisting Authentication State: To maintain user authentication across page reloads, the user's state is persisted in localStorage. Upon application load, we check localStorage and update the Redux state accordingly, ensuring a seamless user experience.
+
+ - Persisting Cart Items State: To maintain cart items across page reloads, the user's cart items is persisted in localStorage. Upon application load, we check localStorage and update the Redux state accordingly, ensuring a seamless user experience.
