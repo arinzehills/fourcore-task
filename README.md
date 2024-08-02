@@ -31,7 +31,7 @@ This is a React application for a 4core fictional e-commerce platform. The appli
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/e-commerce-platform.git
+   git clone https://github.com/arinzehills/fourcore-task.git
    cd fourscore-task
    npm install
    npm run dev
